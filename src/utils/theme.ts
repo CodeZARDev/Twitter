@@ -1,0 +1,57 @@
+const Theme = {
+  50: '#e7f4fd',
+  100: '#c4e3fb',
+  200: '#9cd1f9',
+  300: '#74bef6',
+  400: '#57b0f4',
+  500: '#39a2f2',
+  600: '#339af0',
+  700: '#2c90ee',
+  800: '#2486ec',
+  900: '#1775e8',
+  A100: '#ffffff',
+  A200: '#e6f1ff',
+  A400: '#b3d3ff',
+  A700: '#9ac4ff',
+  'contrastDefaultColor': 'dark',
+} as const;
+
+export const DarkTheme = {
+  50: '#e3e4e5',
+  100: '#b9bcbf',
+  200: '#8a9095',
+  300: '#5b646a',
+  400: '#38424a',
+  500: '#15212a',
+  600: '#121d25',
+  700: '#0f181f',
+  800: '#0c1419',
+  900: '#060b0f',
+  A100: '#53b8ff',
+  A200: '#20a2ff',
+  A400: '#008aec',
+  A700: '#007bd2',
+  contrastDefaultColor: 'light',
+  textColor: 'white',
+} as const;
+
+export const LightTheme = {
+  50: '#ffffff',
+  100: '#ffffff',
+  200: '#ffffff',
+  300: '#fffefe',
+  400: '#fffefe',
+  500: '#fffefe',
+  600: '#fffefe',
+  700: '#fffefe',
+  800: '#fffefe',
+  900: '#fffdfd',
+  A100: '#ffffff',
+  A200: '#ffffff',
+  A400: '#ffffff',
+  A700: '#ffffff',
+  contrastDefaultColor: 'dark',
+  textColor: 'black',
+} as const;
+
+export default Theme;
